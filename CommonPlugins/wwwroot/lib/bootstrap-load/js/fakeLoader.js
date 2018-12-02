@@ -81,7 +81,7 @@
                 //Add customized loader image
                 if (settings.imagePath !='') {
                     el.html('<div class="fl"><img src="'+settings.imagePath+'"></div>');
-                    centerLoader();
+                    $.fn.centerLoader();
                 }
         });
 

@@ -7,6 +7,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\lib\bootstrap-load\css\bootstrap.min.css" />
     <Content Remove="wwwroot\lib\bootstrap-load\css\demo.css" />
+    <Content Remove="wwwroot\lib\bootstrap-load\js\fakeLoader.min.js" />
   </ItemGroup>
 
   <ItemGroup>

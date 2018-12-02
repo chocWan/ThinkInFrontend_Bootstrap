@@ -7,11 +7,16 @@
 
 @*<div class="fakeloader"></div>*@
 
-<section id="section-navigation">
-    <div class="container text-center">
-        <button class="btn-default btn-white btn-active" onclick="LoadStyle1()">Spinner1</button>
-    </div>
-</section>
+<div class="container text-center" style="margin-top:10px;">
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle1()">Spinner1</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle2()">Spinner2</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle3()">Spinner3</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle4()">Spinner4</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle5()">Spinner5</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle6()">Spinner6</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle7()">Spinner7</button>
+    <button class="btn-default btn-info btn-active" onclick="LoadStyle8()">Spinner8</button>
+</div>
 
 <div class="container text-center">
     <h1 style="margin-top:250px">DOM was loaded</h1>
@@ -28,6 +33,62 @@
                 timeToHide: 1200,
                 bgColor: "#2ecc71",
                 spinner: "spinner1"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle2 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#e74c3c",
+                spinner: "spinner2"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle3 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#2ecc71",
+                spinner: "spinner1"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle4 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#3498db",
+                spinner: "spinner4"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle5 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#e67e22",
+                spinner: "spinner5"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle6 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#1abc9c",
+                spinner: "spinner6"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle7 = function () {
+            $.fn.fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#9b59b6",
+                spinner: "spinner7"
+            });
+            $.fn.centerLoader();
+        };
+        var LoadStyle8 = function () {
+            $(".fakeloader").fakeLoader({
+                timeToHide: 1200,
+                bgColor: "#fff",
+                imagePath: "‪C:\Users\Administrator\Pictures\art-gory-gryada-sneg-lyudi_1921x1080.jpg"//视实际情况添加
             });
             $.fn.centerLoader();
         };

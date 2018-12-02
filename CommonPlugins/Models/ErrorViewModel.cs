@@ -1,6 +1,6 @@
 using System;
 
-namespace Plugins.Models
+namespace CommonPlugins.Models
 {
     public class ErrorViewModel
     {

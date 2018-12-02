@@ -5,8 +5,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap-load\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap-load\css\demo.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootstrap-autoAdd\" />
+    <Folder Include="wwwroot\lib\bootstrap-autoComplete\" />
+    <Folder Include="wwwroot\lib\bootstrap-buttonLoad\" />
+    <Folder Include="wwwroot\lib\bootstrap-checkbox\" />
+    <Folder Include="wwwroot\lib\bootstrap-confirm\" />
+    <Folder Include="wwwroot\lib\bootstrap-datetime\" />
+    <Folder Include="wwwroot\lib\bootstrap-load\" />
+    <Folder Include="wwwroot\lib\bootstrap-progress\" />
+    <Folder Include="wwwroot\lib\bootstrap-select\" />
+    <Folder Include="wwwroot\lib\bootstrap-starRating\" />
+    <Folder Include="wwwroot\lib\bootstrap-table\" />
+    <Folder Include="wwwroot\lib\bootstrap-tag\" />
+    <Folder Include="wwwroot\lib\bootstrap-tree\" />
   </ItemGroup>
 
 </Project>
